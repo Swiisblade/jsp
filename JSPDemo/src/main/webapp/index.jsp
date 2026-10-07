@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First JSP</title>
+</head>
+<body>
+
+    <h1>Hello JSP!</h1>
+
+    <%
+        String name = "Rahul";
+        out.println("Welcome " + name);
+    %>
+
+</body>
+</html>
